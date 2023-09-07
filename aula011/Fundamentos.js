@@ -60,17 +60,29 @@ console.log (typeof meuNumeroConvertido);
 
 //estrutura de condição if , else.
 
-const idade = 20;
+const idade =16;
 
-if (idade < 12){
+if (idade < 13){
     console.log("criança");
+} else if (idade < 20){
+    console.log ("Adolescente");
 } else {
-    console.log("Adulto");
+    console.log("Adulto")
+
 }
 
-const nome = jonas;
-    if (nome = Moises){
-console.log("Profeta")
-    } else {
-        console.log("Nao é  Profeta");
-    }
+if (false){
+    console.log ("Iso executa");
+} else {
+    console.log("isoo agora é executado");
+}
+
+//switch
+const fruta ="Banana"
+switch(fruta){
+    case "Banana":
+    console.log("Banana é fruta");
+case "Maçã":
+    console.log("Maçã é fruta");
+
+}
