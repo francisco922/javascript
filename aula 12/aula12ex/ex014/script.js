@@ -3,7 +3,7 @@ var msg = window.document.getElementById('msg')
 var img = window.document.getElementById('imagem')
 var data= new Date()
 var hora = data.getHours() 
-//var hora = 23
+var hora = 1
 msg.innerHTML =`Agora saõ ${hora}horas.`
 if (hora >= 0 && hora < 12){
     // BOM DIA!
@@ -16,7 +16,7 @@ if (hora >= 0 && hora < 12){
 } else {
     //BOA NOITE!
     img.src = "foto_da_noite.png"
-    Document.body.style.background='#CB5BF5'
+    document.body.style.background='#CB5BF5'
     
 }
   }
