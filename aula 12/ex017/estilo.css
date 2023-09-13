@@ -15,8 +15,12 @@ body {
     color: #000;
     width: 500px;
     margin:auto ;
-    text-align: center;
+    text-align:left;
     box-shadow: 5px 5px 10px rgb(156, 14, 156);
+  }
+  option {
+    background-color: aliceblue;
+    text-align:right;
   }
 
   footer {
